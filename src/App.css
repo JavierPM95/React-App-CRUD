@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+#content {
+    border: 1px solid #f1f1f1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+    background: tomato;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: none;
+    color: white;
+    padding: 10px;
+    font: sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.taskElement {
+    padding: 0.9375rem 1.25rem;
+    background: #f1f1f1;
+    text-align: center;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.links {
+    background: lightseagreen;
+    padding: 20px;
+    font-size: 1.25rem;
+    text-align: center;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.links a {
+    color: #ffffff;
+    padding: 1.25rem 0.3125rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.taskform {
+    padding: 1.25rem;
+    text-align: center;
+    justify-content: center;
+    background: #f1f1f1;
+}
+
+.taskform input {
+    background: #ffffff;
+    border: none;
+    border-radius: 0.3125rem;
+    width: 21.875rem;
+    height: 1.5625rem;
+}
+
+.taskform textarea {
+    background: #ffffff;
+    border: none;
+    border-radius: 0.3125rem;
+    width: 21.875rem;
+    height: 4.6875rem;
+}
+
+.taskform button {
+    margin: 0.3125rem;
+    cursor: pointer;
+    color: #ffffff;
+    background: lightseagreen;
+    border: none;
+    border-radius: 0.3125rem;
+    width: 21.875rem;
+    height: 1.5625rem;
 }
